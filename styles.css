@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    background-image: url(images/central_park.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clock{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 5rem;
+    color: white;
+    width: 100%;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    background-color: hsla(0, 0%, 50%, 0.10);
+}
